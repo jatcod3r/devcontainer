@@ -2,7 +2,6 @@
     "image": "alpine:latest",
     "features": {
         "ghcr.io/devcontainers/features/go:latest": {},
-        "ghcr.io/devcontainers/features/node:latest": {},
-        "ghcr.io/devcontainers-extra/features/kubectl-asdf:latest": {}
+        "ghcr.io/devcontainers/features/node:latest": {}
     }
 }
