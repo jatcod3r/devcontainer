@@ -1,7 +1,6 @@
 {
     "image": "alpine:latest",
     "features": {
-        "ghcr.io/devcontainers/features/go:latest": {},
-        "ghcr.io/devcontainers/features/node:latest": {}
+        "ghcr.io/davzucky/devcontainers-features-wolfi/bash:latest": {}
     }
 }
