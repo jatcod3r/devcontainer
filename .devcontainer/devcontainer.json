@@ -1,0 +1,7 @@
+{
+    "features": {
+        "ghcr.io/devcontainers/features/go": {
+            "version": "1.3.1"
+        }
+    }
+}
