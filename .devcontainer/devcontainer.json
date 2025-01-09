@@ -1,8 +1,6 @@
 {
     "image": "alpine:latest",
     "features": {
-        "ghcr.io/davzucky/devcontainers-features-wolfi/bash:latest": {},
-        "ghcr.io/devcontainers/features/common-utils:latest": {},
         "ghcr.io/rocker-org/devcontainer-features/apt-packages:latest": {
             "packages": "file"
         }
