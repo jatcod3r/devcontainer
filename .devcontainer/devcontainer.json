@@ -2,6 +2,7 @@
     "image": "alpine:latest",
     "features": {
         "ghcr.io/davzucky/devcontainers-features-wolfi/bash:latest": {},
-        "ghcr.io/cirolosapio/devcontainers-features/alpine-curl:latest": {}
+        "ghcr.io/cirolosapio/devcontainers-features/alpine-curl:latest": {},
+        "ghcr.io/cirolosapio/devcontainers-features/alpine-node:latest": {}
     }
 }
