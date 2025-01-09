@@ -3,6 +3,8 @@
     "features": {
         "ghcr.io/davzucky/devcontainers-features-wolfi/bash:latest": {},
         "ghcr.io/devcontainers/features/common-utils:latest": {},
-        "ghcr.io/rocker-org/devcontainer-features/apt-packages:latest": {}
+        "ghcr.io/rocker-org/devcontainer-features/apt-packages:latest": {
+            "packages": "file"
+        }
     }
 }
