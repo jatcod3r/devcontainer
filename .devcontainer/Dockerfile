@@ -5,7 +5,7 @@ RUN apt-get install vim sudo curl -y
 
 RUN useradd -m -s /bin/bash -G sudo coder
 
-COPY /etc/ssl/certs/ca-certificates.crt/ca.crt /tmp/etc/ssl/certs/ca-certificates.crt/ca.crt
+# COPY /etc/ssl/certs/ca-certificates.crt/ca.crt /tmp/etc/ssl/certs/ca-certificates.crt/ca.crt
 
 USER coder
 
