@@ -3,9 +3,10 @@ FROM ubuntu
 RUN apt-get update
 RUN apt-get install vim sudo curl -y
 
-COPY /etc/ssl/certs/ca-certificates.crt/ca.crt /etc/ssl/certs/ca-certificates.crt/ca.crt
-
 RUN useradd -m -s /bin/bash -G sudo coder
+
+COPY /etc/ssl/certs/ca-certificates.crt/ca.crt /tmp/etc/ssl/certs/ca-certificates.crt/ca.crt
+
 USER coder
 
 # Let's add a fancy prompt!
