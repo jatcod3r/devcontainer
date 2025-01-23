@@ -1,8 +1,4 @@
 {
-    "image": "alpine:latest",
-    "features": {
-        "ghcr.io/devcontainers/features/common-utils:2": {}
-    },
     "build": {
         "dockerfile": "Dockerfile"
     }
