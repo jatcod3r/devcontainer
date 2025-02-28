@@ -2,5 +2,9 @@
     // https://containers.dev/guide/dockerfile
     "build": {
         "dockerfile": "Dockerfile"
+    },
+
+    "remoteEnv": {
+        "SOME_ENV_VAR": "A_RANDOM_VALUE"
     }
 }
