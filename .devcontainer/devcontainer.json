@@ -7,6 +7,11 @@
     },
     "customizations": {
         "vscode" : {
+            "settings": {
+                "extensions": {
+                    "supportNodeGlobalNavigator": true
+                }
+            },
             "extensions": ["esbenp.prettier-vscode", "euskadi31.json-pretty-printer"]
         }
     }
