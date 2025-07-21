@@ -4,5 +4,10 @@
     },
     "remoteEnv": {
         "SOME_ENV_VAR": "A_RANDOM_VALUE"
+    },
+    "customizations": {
+        "vscode" : {
+            "extensions": ["esbenp.prettier-vscode", "euskadi31.json-pretty-printer"]
+        }
     }
 }
